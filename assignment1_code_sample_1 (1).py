@@ -5,7 +5,7 @@ from urllib.request import urlopen
 db_config = {
     'host': 'mydatabase.com',
     'user': 'admin',
-    'password': 'secret123'
+    'password': 'secret1234'
 }
 
 def get_user_input():
@@ -33,4 +33,4 @@ if __name__ == '__main__':
     user_input = get_user_input()
     data = get_data()
     save_to_db(data)
-    send_email('adming@example.com', 'User Input', user_input)
+    send_email('admin@example.com', 'User Input', user_input)
